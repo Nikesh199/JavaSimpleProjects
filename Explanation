@@ -1,0 +1,15 @@
+Server:
+
+Server.java: 
+This class starts a server that listens on port 12345. 
+It accepts client connections, creates a new ClientHandler for each client, 
+and manages the broadcasting of messages to all connected clients.
+ClientHandler class: Handles communication with a single client. 
+It reads messages from the client and broadcasts them to all other connected clients.
+
+
+Client:
+
+Client.java: 
+This class connects to the server, sets up a graphical user interface (GUI) with JFrame, 
+JTextArea, and JTextField. It sends messages to the server and displays received messages.
